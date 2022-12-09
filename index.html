@@ -3,8 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>RiseUpMe_CV</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
 
+<body>
+<div class="body">
+    <header>
+        <h1>Eugene Papko</h1>
+        <img src="https://img.freepik.com/premium-vector/phoenix-logo-concept_173356-106.jpg?w=360" width="120"
+             height="120" alt="ava">
+    </header>
+    <nav>
+        <ul class="nav">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code example</a></li>
+            <li><a href="#Educ">Education</a></li>
+            <li><a href="#Lang">Language</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contacts:</h2>
+        <ul>
+            <li>E-mail: evgeniypapko@gmail.com</li>
+            <li>Phone: +375 29 293 58</li>
+        </ul>
+
+        <h2>About myself:</h2>
+
+        <div>I work as a design engineer in an energy company.
+            Now I'm learning programming
+        </div>
+
+        <h2 id="skills">Skills:</h2>
+
+        <ul class="skillContainer">
+            <li><img src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="js"></li>
+            <li><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
+                    alt="Ts">
+                TS
+            </li>
+            <li><img src="https://icon-library.com/images/react-icon/react-icon-29.jpg" alt="React"></li>
+            <li><img src="https://t3.ftcdn.net/jpg/03/35/86/14/360_F_335861431_bhd8KZGfySl8GazE2IJgpOMjIF7NqeoH.jpg"
+                     alt="HTML">
+            </li>
+            <li><img src="https://w7.pngwing.com/pngs/857/611/png-transparent-github-git-hub-logo-icon-thumbnail.png"
+                     alt="Github">
+            </li>
+
+        </ul>
+
+        <h2 id="code">Code example:</h2>
+        <div class="code">
+            <code>
+                function finalGrade (exam, projects) {<br>
+                if( exam >90 || projects >10) {<br>
+                return 100;<br>
+                }<br>
+                else if ( exam >75 && projects >=5) {<br>
+                return 90;}<br>
+                else if( exam >50 && projects >=2){<br>
+                return 75;}<br>
+                else {<br>
+                return 0;<br>
+                }<br>
+                }<br>
+            </code>
+        </div>
+
+        <h2>Work experience:</h2>
+
+        <div>One year of freelancing. Todolist</div>
+
+        <h2 id="Educ">Education:</h2>
+
+        <ul>
+            <li>FreeCodeCamp JavaScript</li>
+            <li>CS 50</li>
+            <li>w3schools HTML&CSS</li>
+        </ul>
+
+        <h2 id="Lang">Language:</h2>
+        <ul class="lang">
+            <li><img
+                    src="https://w7.pngwing.com/pngs/994/712/png-transparent-flag-of-russia-computer-icons-icon-russia-blue-flag-logo-thumbnail.png"
+                    alt=""> Native
+            </li>
+            <li><img src="https://toppng.com/uploads/preview/english-language-flag-round-11562903960vbmoq86rb5.png"
+                     alt=""> A2
+            </li>
+        </ul>
+
+    </main>
+    <footer class="footerContainer">
+        <a href="https://github.com/RiseUpMe"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""
+                                                   width="40"> Visit my GitHub</a>
+        <data value="08-12-2022">&copy; 2022</data>
+        <a href="https://rs.school/js-stage0/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school"
+                                                    width="90"></a>
+    </footer>
+</div>
 </body>
 </html>
