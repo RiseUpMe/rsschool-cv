@@ -1,0 +1,111 @@
+header {
+    border-radius: 15px 15px 0 0;
+    padding: 30px;
+    color: darkslategrey;
+}
+
+.body {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-image: url("https://images.hdqwalls.com/download/white-cube-pattern-4k-bu-2048x2048.jpg");
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    font-family: Technic, serif;
+    font-size: 18px;
+    line-height: normal;
+    width: 100%;
+    max-width: 1320px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px gray;
+
+}
+
+.mirror {
+    transform: scale(-1, 1);
+}
+
+header > img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #00b8e6;
+    border-radius: 150px;
+}
+
+
+.nav {
+    display: flex;
+    opacity: 0.8;
+    padding: 0 30px;
+    background: gainsboro;
+    border: 5px solid #00b8e6;
+    border-radius: 15px;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.skillContainer {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.code {
+    padding: 10px;
+    background: #ffe6cc;
+    max-width: 500px;
+    color: #47476b;
+}
+
+.lang {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+ul > li > img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #00b8e6;
+    border-radius: 150px;
+    vertical-align: middle;
+
+}
+
+.footerContainer {
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: gainsboro;
+    border: 5px solid #00b8e6;
+    border-radius: 15px;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer > a > img {
+    vertical-align: middle;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b8e6;
+}
+
